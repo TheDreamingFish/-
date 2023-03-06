@@ -9,6 +9,7 @@ adc_channel_enum channel_list[CHANNEL_NUMBER] =
 
 uint8 Voice_sample_buff_list[Sample_point_list_MAX][Sample_point_MAX];    //设置采集列表
 uint16 AD_Sample_get_Flag = 0;
+
 //-------------------------------------------------------------------------------------------------------------------
 // 函数简介     ADC初始化
 // 参数说明     pit_index为ADC的四个通道  选择 ADC 通道 (详见 zf_driver_adc.h 中枚举 adc_channel_enum 定义)

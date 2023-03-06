@@ -318,6 +318,10 @@ user/isr.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/code/Drv8701e.h
 e:/Aurix\ Work\ Place3/CAR_BUNNY/code/Drv8701e.h :
 user/isr.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h
 e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h :
+user/isr.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/code/Encoder.h
+e:/Aurix\ Work\ Place3/CAR_BUNNY/code/Encoder.h :
+user/isr.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h
+e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h :
 user/isr.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/code/Else.h
 e:/Aurix\ Work\ Place3/CAR_BUNNY/code/Else.h :
 user/isr.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h

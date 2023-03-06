@@ -314,6 +314,10 @@ code/Control.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_
 e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h :
 code/Control.o :	../code/Sys.h
 ../code/Sys.h :
+code/Control.o :	../code/Encoder.h
+../code/Encoder.h :
+code/Control.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h
+e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h :
 code/Control.o :	../code/Else.h
 ../code/Else.h :
 code/Control.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h

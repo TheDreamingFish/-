@@ -52,11 +52,11 @@ IFX_INTERRUPT(cc60_pit_ch0_isr, 0, CCU6_0_CH0_ISR_PRIORITY)
     interrupt_global_enable(0);                     // 开启中断嵌套
     pit_clear_flag(CCU60_CH0);
 //---------------获取速度-------------------------
-//    encoder_data_1 = encoder_get_count(ENCODER_1);                              // 获取编码器计数
-//    encoder_clear_count(ENCODER_1);                                             // 清空编码器计数
-//
-//    encoder_data_2 = encoder_get_count(ENCODER_2);                              // 获取编码器计数
-//    encoder_clear_count(ENCODER_2);                                             // 清空编码器计数
+    encoder_data_1 = encoder_get_count(ENCODER_1);                              // 获取编码器计数
+    encoder_clear_count(ENCODER_1);                                             // 清空编码器计数
+
+    encoder_data_2 = encoder_get_count(ENCODER_2);                              // 获取编码器计数
+    encoder_clear_count(ENCODER_2);                                             // 清空编码器计数
 //---------------------------------------------
 //---------------获取偏角-------------------------
 
@@ -69,8 +69,8 @@ IFX_INTERRUPT(cc60_pit_ch0_isr, 0, CCU6_0_CH0_ISR_PRIORITY)
     velocity_target_L=Encoder_set+turn_up_velocity+Encoder_machine_error;
     velocity_target_R=Encoder_set-turn_up_velocity-Encoder_machine_error;
     //--------速度环-----------
-    DRV_L_PWM=velocity(0,velocity_target_L);
-    DRV_R_PWM=velocity(0,velocity_target_R);
+    DRV_L_PWM=velocity(encoder_data_1,velocity_target_L);
+    DRV_R_PWM=velocity(encoder_data_2,velocity_target_R);
 //    DRV_L_PWM = velocity_pwm_L;
 //    DRV_R_PWM = velocity_pwm_R;
 

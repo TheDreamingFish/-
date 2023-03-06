@@ -7,25 +7,29 @@ C_SRCS += \
 ../code/AD_Capture.c \
 ../code/Control.c \
 ../code/Drv8701e.c \
-../code/Else.c 
+../code/Else.c \
+../code/Encoder.c 
 
 COMPILED_SRCS += \
 ./code/AD_Capture.src \
 ./code/Control.src \
 ./code/Drv8701e.src \
-./code/Else.src 
+./code/Else.src \
+./code/Encoder.src 
 
 C_DEPS += \
 ./code/AD_Capture.d \
 ./code/Control.d \
 ./code/Drv8701e.d \
-./code/Else.d 
+./code/Else.d \
+./code/Encoder.d 
 
 OBJS += \
 ./code/AD_Capture.o \
 ./code/Control.o \
 ./code/Drv8701e.o \
-./code/Else.o 
+./code/Else.o \
+./code/Encoder.o 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -48,7 +52,7 @@ code/%.o: ./code/%.src code/subdir.mk
 clean: clean-code
 
 clean-code:
-	-$(RM) ./code/AD_Capture.d ./code/AD_Capture.o ./code/AD_Capture.src ./code/Control.d ./code/Control.o ./code/Control.src ./code/Drv8701e.d ./code/Drv8701e.o ./code/Drv8701e.src ./code/Else.d ./code/Else.o ./code/Else.src
+	-$(RM) ./code/AD_Capture.d ./code/AD_Capture.o ./code/AD_Capture.src ./code/Control.d ./code/Control.o ./code/Control.src ./code/Drv8701e.d ./code/Drv8701e.o ./code/Drv8701e.src ./code/Else.d ./code/Else.o ./code/Else.src ./code/Encoder.d ./code/Encoder.o ./code/Encoder.src
 
 .PHONY: clean-code
 

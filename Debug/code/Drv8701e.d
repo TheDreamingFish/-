@@ -314,6 +314,10 @@ code/Drv8701e.o :	../code/Sys.h
 ../code/Sys.h :
 code/Drv8701e.o :	../code/Drv8701e.h
 ../code/Drv8701e.h :
+code/Drv8701e.o :	../code/Encoder.h
+../code/Encoder.h :
+code/Drv8701e.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h
+e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h :
 code/Drv8701e.o :	../code/Else.h
 ../code/Else.h :
 code/Drv8701e.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h

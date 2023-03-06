@@ -316,6 +316,10 @@ code/Else.o :	../code/Drv8701e.h
 ../code/Drv8701e.h :
 code/Else.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h
 e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h :
+code/Else.o :	../code/Encoder.h
+../code/Encoder.h :
+code/Else.o :	e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h
+e:/Aurix\ Work\ Place3/CAR_BUNNY/libraries/zf_common/zf_common_headfile.h :
 code/Else.o :	../code/Else.h
 ../code/Else.h :
 code/Else.o :	../code/AD_Capture.h
